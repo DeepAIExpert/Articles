@@ -102,3 +102,18 @@
 
     * 效果预览
      ![everything_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/everything.png)
+
+  * #### LockHunter
+    * 轻松解决文件被其他软件莫名占用的情况
+
+    * 免费
+
+    * 轻量 易上手 无广告
+
+    * [下载地址](http://lockhunter.com/)
+
+    * 效果预览
+     [lockhunter_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/lockhunter.PNG)
+     [lockhunter_2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/lockhunter_1.PNG)
+     [lockhunter_3](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/lockhunter_2.PNG)
+     [lockhunter_4](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/lockhunter_4.PNG)
