@@ -89,3 +89,16 @@
     * 效果预览
      ![mindjet_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/mindjet.PNG)
      ![mindjet_2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/mindjet_time-squence.PNG)
+
+* ### 强大的电脑管理工具
+  * #### Everything
+    * 高效快速的检索本地所有文件
+
+    * 免费
+
+    * 轻量 易上手
+
+    * [下载地址](http://www.voidtools.com/downloads/) 
+
+    * 效果预览
+     ![everything_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/everything.png)
