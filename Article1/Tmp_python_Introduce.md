@@ -6,3 +6,5 @@ Python 具有非常强大的库，并且它能够比较轻松地把基于其他�
 另外，值得一提的是，7月20日IEEE发布2017年编程语言排行榜：Python高居首位，其受欢迎程度可见一斑。
 
 不仅在工作中，Python 是强而有力的工具，在日常生活中，Python 也能完成一些很好玩的功能，例如我们下面介绍的一个小功能，就是利用 Python 去定时获取 Bing 上的高清壁纸。
+
+![avatar](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/python_pic1.PNG)
