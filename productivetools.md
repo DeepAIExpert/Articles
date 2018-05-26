@@ -84,7 +84,7 @@
     
     * 可以重复免费试用
     
-    * [下载地址]（https://www.mindjet.com/）
+    * [下载址](https://www.mindjet.com/)
     
     * 效果预览
      ![mindjet_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/mindjet.PNG)
