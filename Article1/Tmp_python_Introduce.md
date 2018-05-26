@@ -8,3 +8,5 @@ Python 具有非常强大的库，并且它能够比较轻松地把基于其他�
 不仅在工作中，Python 是强而有力的工具，在日常生活中，Python 也能完成一些很好玩的功能，例如我们下面介绍的一个小功能，就是利用 Python 去定时获取 Bing 上的高清壁纸。
 
 ![avatar](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/python_pic1.PNG)
+
+不得不说，[(Bing(必应)](www.bing.com)上面的壁纸，质量还是很可以的。花几分钟，写一个 Python 脚本，每天把高清图片资源下载到一个文件夹，然后把壁纸设置成这个文件夹，每几分钟壁纸就轮换一次，这种感觉非常好呢。
