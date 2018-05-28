@@ -115,7 +115,8 @@
 
     * [下载地址](http://lockhunter.com/)
 
-    * 效果预览
+    * 效果预览 &nbsp;
+    
      ![lockhunter_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/lockhunter_new_1.PNG)
      ![lockhunter_2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/lockhunter_new_2.PNG)
      ![lockhunter_3](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/lockhunter_new_3.PNG)
@@ -130,7 +131,5 @@
     * [下载地址](https://processhacker.sourceforge.io/)
 
     * 效果预览                                                                                        
-    
-      &nbsp;
      ![processhacker_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/processhacker_new_1.PNG)
      ![processhacer_2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/processhacker_new_2.PNG)
