@@ -78,7 +78,7 @@
     * [下载地址](https://freedcamp.com/)
    
     * 效果预览
-      ![freedcamp_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/freedcamp.png)
+      ![freedcamp_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/freedcamp_1.PNG)
       ![freedcamp_2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/frredcamp_2.png)
       ![freedcamp_3](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/freedcamp_3.png)
 
