@@ -90,7 +90,7 @@
     * [下载地址](https://www.mindjet.com/)
     
     * 效果预览
-     ![mindjet_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/mindjet.PNG)
+     ![mindjet_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/mindjet_new.PNG)
      ![mindjet_2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/mindjet_time-squence.PNG)
 
 * ### 强大的电脑管理工具
@@ -130,5 +130,7 @@
     * [下载地址](https://processhacker.sourceforge.io/)
 
     * 效果预览
+    
+    
      ![processhacker_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/processhacker_new_1.PNG)
      ![processhacer_2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/processhacker_new_2.PNG)
