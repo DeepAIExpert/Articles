@@ -104,7 +104,7 @@
     * [下载地址](http://www.voidtools.com/downloads/) 
 
     * 效果预览
-     ![everything_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/everything_new.PNG)
+     ![everything_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/everything_new_1.PNG)
 
   * #### LockHunter
     * 轻松解决文件被其他软件莫名占用的情况
