@@ -37,5 +37,6 @@ find / -iname "yo-ho" | wc --line
 grep -ri --include="*.torrent" "yo-ho" /
 # 从根目录忽略大小写(-i参数)递归查找(-r参数，递归查找)文件内容含有yo-ho的torrent文件
 ```
-结果老王求我不要贴出来。
+结果老王求我不要贴出来。    
+
 ![alt text](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/suprising.jpg "想不到吧!")
