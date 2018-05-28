@@ -79,8 +79,8 @@
    
     * 效果预览
       ![freedcamp_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/freedcamp_1.PNG)
-      ![freedcamp_2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/frredcamp_2.png)
-      ![freedcamp_3](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/freedcamp_3.png)
+      ![freedcamp_2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/frrecamp_2.png)
+      ![freedcamp_3](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/freecamp_3.png)
 
   * #### *MindJet*
     * 用图片更好的展示你的计划、想法，让一切变得高效和完美。
