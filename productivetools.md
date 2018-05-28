@@ -130,5 +130,5 @@
     * [下载地址](https://processhacker.sourceforge.io/)
 
     * 效果预览
-     ![processhacker_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/processhacker.PNG)
-     ![processhacer_2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/processhacker_1.PNG)
+     ![processhacker_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/processhacker_new_1.PNG)
+     ![processhacer_2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/processhacker_new_2.PNG)
