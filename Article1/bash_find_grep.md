@@ -29,7 +29,8 @@ find / -iname "yo-ho" | wc --line
 ```
 1024
 ```
-老司机
+老司机    
+
 ![alt text](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/shehuisheshui.png "社会社会")
 * 内容检索——grep
 隔壁老王总是说，通过蓝色代码下载回来的torrent，文件名就是一串英文字母和数字，文件多了，就不知道对硬的内容是什么，我教他用grep，搜索文件内容，例如
