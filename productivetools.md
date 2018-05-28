@@ -64,7 +64,7 @@
 
     * 效果预览
       ![evernote_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/evernot.png)
-      ![evernote-2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/evernot_2_new.PNG)
+      ![evernote-2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/evernot_2_new_1.PNG)
       
   * #### *FreedCamp*
     * 高效管理项目的计划、讨论、实施、完成的每个环节。*Get Everything Done!*
