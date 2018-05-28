@@ -50,7 +50,7 @@
     * [下载地址](http://www.wps.cn/product/wps2016/) 
 
     * 效果预览
-     ![wpscloud](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/yunpan.PNG)
+     ![wpscloud](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/yunpan_new.PNG)
      
   * #### *Evernote* 
     * 无论是点滴灵感、待办清单、或是会议记录、项目资料，印象笔记在手，方便随时记录，永久保存内容。
