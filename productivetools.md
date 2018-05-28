@@ -133,3 +133,8 @@
     * 效果预览                                                                                        
      ![processhacker_1](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/processhacker_new_1.PNG)
      ![processhacer_2](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/processhacker_new_2.PNG)
+     
+各位看官 觉得可以给个赞哦
+-------------------------------------------工作室介绍分割线------------------------------------------------------------------
+DeepAiExpert 提供的 人工智能、技能培训、软件架构、技术外包 服务成功帮助众多企业和个人实现了价值。
+我们的官网：www.DeepAiExpert.com www.DeepAiExpert.cn
