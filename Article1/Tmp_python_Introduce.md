@@ -23,6 +23,7 @@ _Python_ 具有非常强大的库，并且它能够比较轻松地把基于其�
 
 ![xxx](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/python_pic2.PNG)
 
+.
 
 * ### _Python_ 其他应用 与 就业前景
 上面我们简单介绍了 _Python_ ，以及用 _Python_ 实现的一个比较有意思的东西，但其实上，_Python_ 可以做到的事情还有非常非常多。
@@ -41,6 +42,7 @@ _Python_ 对于服务器运维而言也有十分重要的用途。由于目前�
 
 纵上所述，_Python_ 在未来具有很好的前景，而掌握了这一门语言，能让你的职业规划更多完善，走进更好的平台，从而**更好地实现人生价值**。
 
+.
 
 * ### 精选一部分优质壁纸展示
 
@@ -113,8 +115,7 @@ _Python_ 对于服务器运维而言也有十分重要的用途。由于目前�
 ![xxx](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/WindmillLighthouse_ZH-CN12870536851_1920x1080.jpg)
 ---
 
-
-
+.
 
 * #### 壁纸包下载地址
 由于壁纸数量太多，需要完整壁纸包的，可以私信了解。
