@@ -8,4 +8,4 @@
 我们仔细展开来看看：   
 现在我们有一个关于θ的似然函数L(Θ|X)=P(X|θ)   
 &theta;<sub>MLE</sub> = argmax<sub>&theta;</sub>   
-\operatorname*{arg\,max}_\theta f(x)
+<img src="/mle_vs_map/tex/bdda3f3059ed66076be293a727592952.svg?invert_in_darkmode&sanitize=true" align=middle width=98.61308324999997pt height=24.65753399999998pt/>
