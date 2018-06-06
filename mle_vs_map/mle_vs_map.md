@@ -15,7 +15,7 @@ L(Θ|X)=P(X|θ)
 <p align="center">
 &theta;<sub>MLE</sub> = argmax<sub>&theta;</sub>P(X|θ) = argmax<sub>&theta;</sub>&prod;<sub>i</sub>P(x<sub>i</sub>|θ)    
 </p>
-在这里，P(x<sub>i</sub>|θ)&le;1，相乘的结果由于取数值小于1的乘积会随着这些项数量的增加而逼近0，特别在计算机上，很容易产生计算下溢。因此，我们对原有函数做一下变换，取对数log，使其每一项相乘变换为每一项相加。因为对数函数仍然是单调增加，所以最大化原有的函数与最大化取对数之后的函数是等价的。变换后，我们得到如下函数：      
+在这里，P(x<sub>i</sub>|θ)&le;1，相乘的结果由于取数值小于1的乘积会随着这些项数量的增加而逼近0，特别在计算机上，很容易产生计算下溢。因此，我们对原有函数做一下变换，取对数log，使其每一项相乘变换为每一项相加。因为对数函数仍然是单调增加，所以最大化原有的函数与最大化取对数之后的函数是等价的。变换后，我们得到如下函数：
 <p align="center">
 &theta;<sub>MLE</sub> = argmax<sub>&theta;</sub>logP(X|θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>P(x<sub>i</sub>|θ)    
 </p>
@@ -23,17 +23,27 @@ L(Θ|X)=P(X|θ)
 
 ### Maximum A Posteriori Estimation or MAP
 我们再来看MAP：    
-根据贝叶斯公式，后验概率定义如下：    
+根据贝叶斯公式，后验概率定义如下：  
+<p align="center">
 P(θ|X) = (P(X|θ)P(θ))/P(X)    
-我们可以把分母拿掉，因为P(X)不受θ影响，得到：    
+</p>
+我们可以把分母拿掉，因为P(X)不受θ影响，得到：   
+<p align="center">
 P(θ|X) ∝ P(X|θ)P(θ)    
+</p>
 因此    
+<p align="center">
 &theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>P(X|θ)P(θ)    
-同样，取对数，得到    
+</p>
+同样，取对数，得到   
+<p align="center">
 &theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>log&prod;<sub>i</sub>P(x<sub>i</sub>|θ)P(θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>logP(x<sub>i</sub>|θ)P(θ)    
+</p>
 对比MLE，MAP只是多了一项P(θ)，就是说，最大化似然函数加权先验θ概率，就是MAP。
 
 ### MLE is a special case of MAP
 来看一个特殊例子，假如P(θ)是一个均匀分布，MAP函数如下：    
+<p align="center">
 &theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>log&prod;<sub>i</sub>P(x<sub>i</sub>|θ)P(θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>logP(x<sub>i</sub>|θ)const = argmax<sub>&theta;</sub>&prod;<sub>i</sub>P(x<sub>i</sub>|θ) = &theta;<sub>MLE</sub>    
+</p>
 可见，MLE是MAP的一个特例。
