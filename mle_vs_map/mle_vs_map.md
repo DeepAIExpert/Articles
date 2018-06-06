@@ -21,8 +21,7 @@ L(θ|X)=P(X|θ)
 通过梯度下降(上升)方法对θ优化，求出上述函数最大值，这就是最大似然逼近(MLE)。
 
 ## Maximum A Posteriori Estimation or MAP
-我们再来看MAP：
-根据贝叶斯公式，后验概率定义如下：
+我们再来看MAP，根据贝叶斯公式，后验概率定义如下：
 <p align="center">
 P(θ|X) = (P(X|θ)P(θ))/P(X)
 </p>
