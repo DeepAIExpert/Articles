@@ -165,7 +165,8 @@
     插入数据到表中：
     "insert or replace into table (id, fileId, Number) (select id from table where fileId = '1?'), ?2, ?3)
     
-    id 在这是多余的，并且大幅增加了查询和写入语句算法复杂，每条插入语句都要进行一次基于fileId的查询，这个查询复杂度随着表的大小不断增长。
+    id 在这是多余的，并且大幅增加了查询和写入语句算法复杂，每条插入语句都要进行一次基于fileId的查询，
+    这个查询复杂度随着表的大小不断增长。
 
   #### 修改之后
     CREATE TABLE t1(fileId Primary Key UNIQUE, Number);
