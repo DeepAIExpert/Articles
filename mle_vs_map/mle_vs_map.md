@@ -41,8 +41,8 @@ P(θ|X) ∝ P(X|θ)P(θ)
 对比MLE，MAP只是多了一项P(θ)，就是说，最大化似然函数加权先验θ概率，就是MAP。
 
 ## MLE is a special case of MAP
-来看一个特殊例子，假如P(θ)是一个均匀分布，MAP函数如下：    
-<bold><p align="center">
+来看一个特殊例子，假如P(θ)是一个均匀分布，MAP函数如下：
+<p align="center">
 &theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>log&prod;<sub>i</sub>P(x<sub>i</sub>|θ)P(θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>logP(x<sub>i</sub>|θ)const = argmax<sub>&theta;</sub>&prod;<sub>i</sub>P(x<sub>i</sub>|θ) = &theta;<sub>MLE</sub>
-</p></bold>
+</p>
 可见，MLE是MAP的一个特例。
