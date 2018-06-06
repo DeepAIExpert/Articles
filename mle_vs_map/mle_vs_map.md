@@ -5,7 +5,7 @@
 因为如果我们对高斯函数的均值和方差求偏导数，并优化使其最大（即求导数为零的点），那么我们得到的是计算样本均值和样本方差的函数。
 另一个例子，机器学习和深度学习（神经网络等）中的大多数分类问题，都可以解释为MLE——softmax cross entropy loss。
 
-### Maximum Likelihood Estimation or MLE
+## Maximum Likelihood Estimation or MLE
 我们先看看MLE：   
 现在我们有一个关于θ的似然函数：
 <p align="center">
@@ -21,7 +21,7 @@ L(Θ|X)=P(X|θ)
 </p>
 通过梯度下降(上升)方法对θ优化，求出上述函数最大值，这就是最大似然逼近(MLE)。
 
-### Maximum A Posteriori Estimation or MAP
+## Maximum A Posteriori Estimation or MAP
 我们再来看MAP：    
 根据贝叶斯公式，后验概率定义如下：  
 <p align="center">
@@ -41,7 +41,7 @@ P(θ|X) ∝ P(X|θ)P(θ)
 </p>
 对比MLE，MAP只是多了一项P(θ)，就是说，最大化似然函数加权先验θ概率，就是MAP。
 
-### MLE is a special case of MAP
+## MLE is a special case of MAP
 来看一个特殊例子，假如P(θ)是一个均匀分布，MAP函数如下：    
 <p align="center">
 &theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>log&prod;<sub>i</sub>P(x<sub>i</sub>|θ)P(θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>logP(x<sub>i</sub>|θ)const = argmax<sub>&theta;</sub>&prod;<sub>i</sub>P(x<sub>i</sub>|θ) = &theta;<sub>MLE</sub>    
