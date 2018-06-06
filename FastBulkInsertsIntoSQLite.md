@@ -9,7 +9,7 @@
   
   示例代码：
   
-    、、、javascript
+    
     char buffer[300];
     for (unsigned i = 0; i < mVal; i++)
     {
@@ -18,13 +18,13 @@
                 getInt(), getInt(), getInt());
         sqlite3_exec(mDb, buffer, NULL, NULL, NULL);
     }
-    、、、
+    
 
 ### *合并 Transaction*
   事务是将SQL语句组合在一起的一种方式。如果遇到错误，可以使用ON CONFLICT语句来定义错误处理。用END或者COMMIT来关闭和写入事务，然后将内容写入SQLite数据库。
   实例代码:
   
-    ```
+    
     char* errorMessage;
     sqlite3_exec(mDb, "BEGIN TRANSACTION", NULL, NULL, &errorMessage);
     
@@ -38,7 +38,7 @@
     }
     
     sqlite3_exec(mDb, "COMMIT TRANSACTION", NULL, NULL, &errorMessage);
-    ```
+    
 	
 ### *PRAGMA 语句*
   PRAGMA语句控制整个SQLite的行为。 它们可以用来调整选项
@@ -46,12 +46,12 @@
   SQLite文档充分说明了它们的作用和使用它们的含义。 例如，同步关闭会导致SQLite停止并等待数据写入硬盘。在发生崩溃或电源故障时，数据库可能会损坏。
   实例代码:
   
-    ```
+    
     sqlite3_exec(mDb, "PRAGMA synchronous=OFF", NULL, NULL, &errorMessage);
     sqlite3_exec(mDb, "PRAGMA count_changes=OFF", NULL, NULL, &errorMessage);
     sqlite3_exec(mDb, "PRAGMA journal_mode=MEMORY", NULL, NULL, &errorMessage);
     sqlite3_exec(mDb, "PRAGMA temp_store=MEMORY", NULL, NULL, &errorMessage);
-    ```
+    
 
 ### *预解析 Statement*
   预解析 Statement是一种高效的查询方式。 解析器只需要在批量查询语句上运行一次，而不是一遍又一遍地解析语句。根据文档，sqlite3_exec是一个便捷函数，
@@ -60,7 +60,7 @@
   
   示例代码：
   
-    ```
+    
     char* errorMessage;
     sqlite3_exec(mDb, "BEGIN TRANSACTION", NULL, NULL, &errorMessage);
      
@@ -89,7 +89,7 @@
      
     sqlite3_exec(mDb, "COMMIT TRANSACTION", NULL, NULL, &errorMessage);
     sqlite3_finalize(stmt);
-    ```
+    
 
 ### *数据用Binary Blob类型存储*
   到目前为止，上面的优化已经包含了批量查询的最常用的优化方法。但是在另一个方面，如果你没有对某些数据进行查询的必要，可以将其存储为一个blob。
@@ -98,7 +98,7 @@
   随着更多字段被转换为更大的blob，这种方法的性能就越能提升。
   示例代码：
   
-    ```
+    
     char* errorMessage;
     sqlite3_exec(mDb, "BEGIN TRANSACTION", NULL, NULL, &errorMessage);
      
@@ -130,7 +130,7 @@
      
     sqlite3_exec(mDb, "COMMIT TRANSACTION", NULL, NULL, &errorMessage);
     sqlite3_finalize(stmt);
-    ```
+    
 
 ## 性能对比图
   #### *各方法不同数量的插入动作的运行时间*
