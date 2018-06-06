@@ -5,7 +5,8 @@
 另一个例子，机器学习和深度学习（神经网络等）中的大多数分类问题，都可以解释为MLE——softmax cross entropy loss。
 
 我们先看看MLE：   
-现在我们有一个关于θ的似然函数L(Θ|X)=P(X|θ)   
+现在我们有一个关于θ的似然函数：    
+L(Θ|X)=P(X|θ)   
 &theta;<sub>MLE</sub> = argmax<sub>&theta;</sub>P(X|θ) = argmax<sub>&theta;</sub>&prod;<sub>i</sub>P(x<sub>i</sub>|θ)    
 在这里，P(x<sub>i</sub>|θ)&le;1，相乘的结果由于取数值小于1的乘积会随着这些项数量的增加而逼近0，特别在计算机上，很容易产生计算下溢。因此，我们对原有函数做一下变换，取对数log，使其每一项相乘变换为每一项相加。因为对数函数仍然是单调增加，所以最大化原有的函数与最大化取对数之后的函数是等价的。昨晚变换后，我们得到如下函数：      
 &theta;<sub>MLE</sub> = argmax<sub>&theta;</sub>logP(X|θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>P(x<sub>i</sub>|θ)    
@@ -19,9 +20,9 @@ P(θ|X) ∝ P(X|θ)P(θ)
 因此    
 &theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>P(X|θ)P(θ)    
 同样，取对数，得到    
-&theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>log&prod;<sub>i</sub>P(x<sub>i</sub>|θ)P(θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>logP(x<sub>i</sub>|θ)P(θ)
+&theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>log&prod;<sub>i</sub>P(x<sub>i</sub>|θ)P(θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>logP(x<sub>i</sub>|θ)P(θ)    
 对比MLE，MAP只是多了一项P(θ)，就是说，最大化似然函数加权先验θ概率，就是MAP。
 
-来看一个特殊例子，加入P(θ)是一个均匀分布，MAP函数如下：
+来看一个特殊例子，加入P(θ)是一个均匀分布，MAP函数如下：    
 &theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>log&prod;<sub>i</sub>P(x<sub>i</sub>|θ)P(θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>logP(x<sub>i</sub>|θ)const = argmax<sub>&theta;</sub>&prod;<sub>i</sub>P(x<sub>i</sub>|θ) = &theta;<sub>MLE</sub>    
 可见，MLE是MAP的一个特例。
