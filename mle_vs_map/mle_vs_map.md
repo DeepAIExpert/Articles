@@ -6,12 +6,11 @@
 另一个例子，机器学习和深度学习（神经网络等）中的大多数分类问题，都可以解释为MLE——softmax cross entropy loss。
 
 ## Maximum Likelihood Estimation or MLE
-我们先看看MLE：   
-现在我们有一个关于θ的似然函数：
+我们先看看MLE，现在我们有一个关于θ的似然函数：
 <p align="center">
 L(Θ|X)=P(X|θ)   
 </p>
-那么MLE就是：    
+那么MLE就是：  
 <p align="center">
 &theta;<sub>MLE</sub> = argmax<sub>&theta;</sub>P(X|θ) = argmax<sub>&theta;</sub>&prod;<sub>i</sub>P(x<sub>i</sub>|θ)    
 </p>
@@ -22,22 +21,22 @@ L(Θ|X)=P(X|θ)
 通过梯度下降(上升)方法对θ优化，求出上述函数最大值，这就是最大似然逼近(MLE)。
 
 ## Maximum A Posteriori Estimation or MAP
-我们再来看MAP：    
-根据贝叶斯公式，后验概率定义如下：  
+我们再来看MAP：
+根据贝叶斯公式，后验概率定义如下：
 <p align="center">
 P(θ|X) = (P(X|θ)P(θ))/P(X)    
 </p>
-我们可以把分母拿掉，因为P(X)不受θ影响，得到：   
+我们可以把分母拿掉，因为P(X)不受θ影响，得到：
 <p align="center">
 P(θ|X) ∝ P(X|θ)P(θ)    
 </p>
-因此    
+因此
 <p align="center">
-&theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>P(X|θ)P(θ)    
+&theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>P(X|θ)P(θ)
 </p>
-同样，取对数，得到   
+同样，取对数，得到
 <p align="center">
-&theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>log&prod;<sub>i</sub>P(x<sub>i</sub>|θ)P(θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>logP(x<sub>i</sub>|θ)P(θ)    
+&theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>log&prod;<sub>i</sub>P(x<sub>i</sub>|θ)P(θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>logP(x<sub>i</sub>|θ)P(θ)
 </p>
 对比MLE，MAP只是多了一项P(θ)，就是说，最大化似然函数加权先验θ概率，就是MAP。
 
