@@ -8,7 +8,7 @@
 ## Maximum Likelihood Estimation or MLE
 我们先看看MLE，现在我们有一个关于θ的似然函数：
 <p align="center">
-L(Θ|X)=P(X|θ)
+L(θ|X)=P(X|θ)
 </p>
 那么MLE就是：  
 <p align="center">
