@@ -45,3 +45,5 @@ P(θ|X) ∝ P(X|θ)P(θ)
 &theta;<sub>MAP</sub> = argmax<sub>&theta;</sub>log&prod;<sub>i</sub>P(x<sub>i</sub>|θ)P(θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>logP(x<sub>i</sub>|θ)const = argmax<sub>&theta;</sub>&prod;<sub>i</sub>P(x<sub>i</sub>|θ) = &theta;<sub>MLE</sub>
 </p>
 可见，MLE是MAP的一个特例。
+
+<p align="center"><img src="https://raw.githubusercontent.com/DeepAIExpert/Articles/master/mle_vs_map/7fda39033b3b0eb36569da9f1e6723eb.gif" /></p>
