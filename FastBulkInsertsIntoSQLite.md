@@ -175,4 +175,4 @@
     insert or replace into table (fileId, Number) (1?, 2?)
 
 ## 优化之后的结果：
-  1000K个记录整个插入过程持续几秒，CPU占用单核3%以内。
+  1000K个记录整个插入过程只持续几秒，CPU占用单核3%以内。
