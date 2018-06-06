@@ -8,10 +8,13 @@
 ### Maximum Likelihood Estimation or MLE
 我们先看看MLE：   
 现在我们有一个关于θ的似然函数：
-<center>L(Θ|X)=P(X|θ)   </center>
-
-
+<p align="center">
+L(Θ|X)=P(X|θ)   
+</p>
+那么MLE就是：    
+<p align="center">
 &theta;<sub>MLE</sub> = argmax<sub>&theta;</sub>P(X|θ) = argmax<sub>&theta;</sub>&prod;<sub>i</sub>P(x<sub>i</sub>|θ)    
+</p>
 在这里，P(x<sub>i</sub>|θ)&le;1，相乘的结果由于取数值小于1的乘积会随着这些项数量的增加而逼近0，特别在计算机上，很容易产生计算下溢。因此，我们对原有函数做一下变换，取对数log，使其每一项相乘变换为每一项相加。因为对数函数仍然是单调增加，所以最大化原有的函数与最大化取对数之后的函数是等价的。昨晚变换后，我们得到如下函数：      
 &theta;<sub>MLE</sub> = argmax<sub>&theta;</sub>logP(X|θ) = argmax<sub>&theta;</sub>&sum;<sub>i</sub>P(x<sub>i</sub>|θ)    
 通过梯度下降(上升)方法对θ优化，求出上述函数最大值，这就是最大似然逼近(MLE)。
