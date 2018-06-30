@@ -14,7 +14,7 @@
 
 以上就是关于栈是什么和栈的作用的相关介绍，接下来看看什么堆，以及什么时候使用堆来存储对象。上面提到栈的使命是辅助实现函数调用，而堆的定位是额外的存储空间。它的存储空间没有特定的结构，供程序在运行期间动态的申请存储空间。需要手动去管理申请的那块内存空间，未释放会造成内存泄露。
 
-以上关于栈 & 栈帧的部分内容 参考了：Computer Systems: A Programmer’s Perspective (3rd Edition)
+以上关于栈 & 栈帧的部分内容 参考了：[Computer Systems: A Programmer’s Perspective (3rd Edition)](https://www.amazon.com/gp/product/013409266X/?tag=fhinkel-20)
 ![computer_system](https://raw.githubusercontent.com/DeepAIExpert/Articles/master/Article1/computer_systems.jpg)
 
 
